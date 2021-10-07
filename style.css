@@ -1,0 +1,106 @@
+
+h6 {
+    color: cornflowerblue;
+    border: 10px solid tomato;
+    background-color: thistle;
+    padding: 20px;
+    margin: -10px;
+    font-size: 2rem;
+}
+
+body > div:first-of-type {
+    width: 300px;
+    height: 300px;
+    background-color:teal;
+    margin: 0;
+}
+
+body {
+    background-color: goldenrod;
+}
+
+section:first-of-type{
+    height: 10px;
+    background-color: rgb(105, 255, 255);
+    margin-bottom: 50px;
+}
+
+article {
+    background-color: greenyellow;
+}
+
+article>img {
+    height: 100px;
+    margin-bottom: -100px;
+}
+
+p {
+    margin-left: 120px;
+}
+
+.btn {
+    background-color: indigo;
+    color: white;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+.btn-margin {
+    margin: 20px;    
+}
+
+.btn-padding {
+    padding: 20px;
+}
+
+.btn-border {
+    border-top: 5px dashed whitesmoke;
+    border-right: 55px dotted tomato;
+    border-bottom: 5px dashed whitesmoke;
+    border-left: 55px dotted tomato;
+    border-radius: 30px;
+}
+
+.center {
+    margin: auto;
+    display: block;
+    width: 80px;
+}
+
+#box-parent {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+}
+
+.box {
+    display: inline-block;
+    background-color: thistle;
+    border: 2px solid white;
+    width: 20%;
+    height: 50%;
+}
+
+#relative-fonts {
+    font-size: 30px;
+}
+
+#relative-fonts h1 {
+    font-size: 2em;
+}
+
+#relative-fonts h3 {
+    font-size: 2rem;
+}
+
+#relative-fonts p {
+    font-size: 0.5em;
+}
+
+#relative-fonts span {
+    font-size: 0.5rem;
+}
+
+#test {
+    font-size: 50px;
+}
